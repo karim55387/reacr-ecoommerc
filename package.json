@@ -1,12 +1,12 @@
 {
   "name": "ecommerc",
   "private": true,
-  "homepage": "https://karim55387.github.io/reacr-ecoommerc",
+  "homepage": "https://github.com/karim55387/react-dom.git",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+     "predeploy": "npm run build",
+		  "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
